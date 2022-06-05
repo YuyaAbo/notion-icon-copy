@@ -1,0 +1,9 @@
+{
+  "name": "notion-icon-copy",
+  "version": "1.0.0",
+  "description": "copies uploaded icon url in Notion.",
+  "main": "index.js",
+  "repository": "git@github.com:YuyaAbo/notion-icon-copy.git",
+  "author": "YuyaAbo <b1011211@gmail.com>",
+  "license": "Apache License 2.0"
+}
