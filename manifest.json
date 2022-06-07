@@ -1,0 +1,19 @@
+{
+  "name": "notion-icon-copy",
+  "description": "copies to clipboard uploaded icon url in Notion.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "dist/background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.notion.so/*"],
+      "js": ["dist/content_script.js"]
+    }
+  ],
+  "permissions": [
+    "activeTab",
+    "contextMenus"
+  ]
+}
