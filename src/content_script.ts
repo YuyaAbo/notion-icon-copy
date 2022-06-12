@@ -1,6 +1,6 @@
 let img: HTMLImageElement | undefined;
 
-document.addEventListener("contextmenu", (event) => {
+document.addEventListener('contextmenu', (event) => {
     img = event.target as HTMLImageElement
 }, false)
 
