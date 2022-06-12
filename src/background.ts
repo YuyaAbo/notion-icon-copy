@@ -3,7 +3,8 @@ chrome.runtime.onInstalled.addListener(() => {
         type: "normal",
         id: "copy",
         title: "Copy Notion page icon URL",
-        contexts: ["all"]
+        contexts: ['image'],
+        documentUrlPatterns: ['https://www.notion.so/*'],
     })
 })
 
