@@ -9,5 +9,5 @@ chrome.runtime.onInstalled.addListener(() => {
 })
 
 chrome.contextMenus.onClicked.addListener((info, tab) => {
-    chrome.tabs.sendMessage(tab?.id ?? 0, 'copy')
+    chrome.tabs.sendMessage(tab?.id ?? 0, 'notion-icon-copy')
 })
