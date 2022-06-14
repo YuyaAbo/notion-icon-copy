@@ -1,0 +1,8 @@
+{
+  "Description": {
+    "message": "NotionのページアイコンをURLとしてクリップボードにコピーします。"
+  },
+  "ContextMenuTitle": {
+    "message": "ページアイコンのURLをコピー"
+  }
+}

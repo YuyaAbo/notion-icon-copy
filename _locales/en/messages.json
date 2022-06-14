@@ -1,0 +1,8 @@
+{
+  "Description": {
+    "message": "copies to clipboard page icon url in Notion."
+  },
+  "ContextMenuTitle": {
+    "message": "Copy page icon URL"
+  }
+}

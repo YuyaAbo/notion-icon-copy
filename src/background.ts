@@ -2,7 +2,7 @@ chrome.runtime.onInstalled.addListener(() => {
     chrome.contextMenus.create({
         type: 'normal',
         id: 'copy',
-        title: 'Copy Notion page icon URL',
+        title: chrome.i18n.getMessage('ContextMenuTitle'),
         contexts: ['image'],
         documentUrlPatterns: ['https://www.notion.so/*'],
     })
