@@ -13,7 +13,7 @@
   "author": "YuyaAbo <b1011211@gmail.com>",
   "license": "Apache-2.0",
   "devDependencies": {
-    "@types/chrome": "^0.0.188",
+    "@types/chrome": "^0.0.237",
     "@types/copy-webpack-plugin": "^10.1.0",
     "@types/webextension-polyfill": "^0.10.0",
     "@types/webpack": "^5.28.1",
