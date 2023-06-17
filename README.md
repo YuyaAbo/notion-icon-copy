@@ -8,7 +8,7 @@ The chrome extension copies to clipboard uploaded icon url in Notion.
 
 ## Development
 
-- Node.js v16
+- Node.js v18
 
 Install dependencies.
 ```
