@@ -16,7 +16,7 @@
     "@types/chrome": "^0.0.188",
     "@types/copy-webpack-plugin": "^10.1.0",
     "@types/webextension-polyfill": "^0.10.0",
-    "@types/webpack": "^5.28.0",
+    "@types/webpack": "^5.28.1",
     "copy-webpack-plugin": "^11.0.0",
     "ts-loader": "^9.4.3",
     "ts-node": "^10.9.1",
