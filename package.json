@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "copies uploaded icon url in Notion.",
   "main": "index.js",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "build": "webpack"
   },
