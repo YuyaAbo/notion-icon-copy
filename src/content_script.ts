@@ -9,5 +9,13 @@ chrome.runtime.onMessage.addListener( async (message) => {
         const imgUrl = img.src.replace('https://www.notion.so/image/', '')
         const decodedImgUrl = decodeURIComponent(imgUrl)
         await navigator.clipboard.writeText(decodedImgUrl)
+
+        // Release drag state
+        let event = new MouseEvent('mouseup', {
+            view: window,
+            bubbles: true,
+            cancelable: true
+        });
+        document.dispatchEvent(event);
     }
 })
